@@ -1,0 +1,159 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8fafc;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg,#ffffff,#dbeafe);
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+}
+button:hover{
+    background-color: black;
+    transform: translatey(-5px);
+    box-shadow: 0 12px 24px red;
+    transition: 0.4s;
+}
+.about{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    /*border: 1px solid black;*/
+    margin-top: 10px;
+}
+.skills{
+    text-align: center;
+
+}
+.skills h1{
+    margin-bottom: 30px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills .card{
+    width: 15vw;
+    height: 20vh;
+    background-color: #e5e7eb;
+    text-align: center;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+.skills .card:hover{
+    text-align: center;
+    background-color: aqua;
+    transform: translateY(-5px);
+    border: none;
+    position: relative;
+    top: 10px;
+    box-shadow: 0 15px 28px lightcoral;
+
+}
+.hero img{
+    width: 25opx;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.hero img:hover{
+    transform: scale(1.1) translateY(-10px);
+    background-color: purple;
+    box-shadow: 0 15px 20px purple;
+    transition: 0.4s;
+}
+.project{
+    /*border: 1px solid black;*/
+    position: relative;
+    top: 30px;
+   
+    
+}
+.navbar #v:hover{
+    background-color: lightseagreen;
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: 0 12px 24px lightgoldenrodyellow;
+    border-radius: 15vw;
+}
+.navbar #he:hover{
+    background-color: lightseagreen;
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: 0 12px 24px lightgoldenrodyellow;
+    border-radius: 15vw;
+
+}
+.project-card{
+
+    width:60%;
+
+    margin:40px auto;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    background-color:white;
+    border:1px solid #e5e7eb;
+
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
+
+    transition:0.3s;
+
+}
+
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+}
+.project-card h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.project #p{
+    text-align: center;
+}
+.project-card a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.project-card a:hover{
+    background-color: black;
+    transform: translateY(-5px);
+}
